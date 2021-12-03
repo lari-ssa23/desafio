@@ -2,25 +2,99 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    list-style: none;
 }
 main{
     color: #FFFFFF;
 }
-nav{
-    color: #FFFFFF;   
+header{
+    height:1px;
+    width: 100%;   
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-top: 3em;
 }
-div{
-    height:25%;
-    width: 30%;
-    background-color: blueviolet;
+.cabeludo{
+    height: 45em;
+    width: 100%;
+    margin-top: 2em;
 }
+.titulo{
+    height: 20%;
+    width: 79%;
+    z-index: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 6em;
+    position: absolute;
+    top: 14em;
+    font-size: 2em;
+}
+li{
+    display:inline;
+    color: #9767A9;
+    padding-left: 1em;
+}
+     
+}
+.rede{
+    height: 2%;
+}
+
 .introduction{
     height:25%;
     width: 100%;   
-    background-color: blueviolet;
+    background-color: #9767A9;
+}
     display:flex;
 }
 .textIntro{
     display:flex;
     flex-direction: column;
+}
+.passoum{
+    height:25%;
+    width:30%;
+    background-color: #9767A9;
+}
+.passodois{
+    height:25%;
+    width:30%;
+    background-color: #9767A9;}
+.passotres{
+    height:25%;
+    width:30%;
+    background-color: #9767A9;
+}
+.passoquatro{
+    height:25%;
+    width:30%;
+    background-color: #9767A9;
+}
+.passocinco{
+    height:25%;
+    width:30%;
+    background-color: #9767A9;
+}
+.passoseis{
+    height:25%;
+    width:30%;
+    background-color: #9767A9;
+}
+.passosete{
+    height:25%;
+    width:30%;
+    background-color: #9767A9;
+}
+.leftImage{
+    height: 10em;
+    width:12em;
+}
+.rightImage{
+    height: 10em;
+    width:12em;
 }

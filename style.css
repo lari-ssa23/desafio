@@ -22,6 +22,10 @@ header{
     width: 100%;
     margin-top: 2em;
 }
+input{
+    background-image: url("image/busque.png");
+    height: 20em;
+}
 .titulo{
     height: 20%;
     width: 79%;
@@ -41,6 +45,9 @@ li{
 }
      
 }
+.tituloprincipal{
+    font: normal normal 900 100px/100px Playfair Display;   
+}
 .rede{
     height: 2%;
 }
@@ -49,52 +56,95 @@ li{
     height:25%;
     width: 100%;   
     background-color: #9767A9;
-}
     display:flex;
+    flex-direction: row;
+}
+
 }
 .textIntro{
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
 }
 .passoum{
     height:25%;
     width:30%;
     background-color: #9767A9;
 }
-.passodois{
-    height:25%;
-    width:30%;
-    background-color: #9767A9;}
-.passotres{
-    height:25%;
-    width:30%;
+.passoimpar{
+    height:29%;
+    width:35%;
     background-color: #9767A9;
+    
 }
-.passoquatro{
-    height:25%;
-    width:30%;
+.passopar{
+    height:29%;
+    width:35%;
     background-color: #9767A9;
+    margin-left:60%;
+    margin-top: 15%;
+    
 }
-.passocinco{
-    height:25%;
-    width:30%;
-    background-color: #9767A9;
-}
-.passoseis{
-    height:25%;
-    width:30%;
-    background-color: #9767A9;
-}
-.passosete{
-    height:25%;
-    width:30%;
-    background-color: #9767A9;
-}
+
 .leftImage{
-    height: 10em;
-    width:12em;
+    height: 20em;
+    width:24em;
+    position: relative;
 }
 .rightImage{
+    height: 20em;
+    width:24em;
+    margin-left: 60%;
+    margin-top: 15%;
+
+}
+.prince{
+    height: 25em;
+    width: 20em;
+}
+.apresentadora{
+    height: 13em;
+    width: 20em;
+}
+.principe{
+display:flex;
+flex-direction: column;
+}
+.Bey{
+display:flex;
+flex-direction: column;
+height: 10em;
+width: 11em;
+}
+.top{
+    height: 20em;
+    width: 11em;
+}
+.snoopydog{
     height: 10em;
-    width:12em;
+    width: 11em;
+}
+.grupodatopmodel{
+display:flex;
+flex-direction: column;
+}
+.depe{
+    height: 35em;
+    width: 21em;
+}
+.meninacomNago{
+height: 10em;
+width: 11em;
+
+}
+.barbudo{
+    height: 22em;
+    width: 11em;
+}
+.grupodameninacomNago{
+display:flex;
+flex-direction: column;
+}
+.imagensfinais{
+    display: flex;
+    flex-direction: row;
 }

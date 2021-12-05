@@ -17,6 +17,11 @@ header{
     background-color: #FFFFFF;
     padding-top: 3em;
 }
+.cabeca{
+    /* margin:2em;
+    display: flex;
+    flex-direction: row; */
+}
 .cabeludo{
     height: 45em;
     width: 100%;
@@ -24,7 +29,11 @@ header{
 }
 input{
     background-image: url("image/busque.png");
-    height: 20em;
+    height: 2em;
+    width: 10em;
+    background-repeat:no-repeat;
+    border-radius: 28%;
+    border-color: #9767A9;
 }
 .titulo{
     height: 20%;
@@ -58,23 +67,24 @@ li{
     background-color: #9767A9;
     display:flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 }
 .textIntro{
     display:flex;
     flex-direction:column;
+    width: 50%;
+    height: 25%;
+    font: normal normal 300 25px/30px Montserrat;
 }
-.passoum{
-    height:25%;
-    width:30%;
-    background-color: #9767A9;
-}
+
 .passoimpar{
     height:29%;
     width:35%;
     background-color: #9767A9;
-    
+    margin-top: 15%;
+    margin-left: 2%;
 }
 .passopar{
     height:29%;
@@ -82,6 +92,8 @@ li{
     background-color: #9767A9;
     margin-left:60%;
     margin-top: 15%;
+    position: relative;
+    bottom: 22em;
     
 }
 
@@ -89,6 +101,8 @@ li{
     height: 20em;
     width:24em;
     position: relative;
+    margin-left: 1%;
+    margin-top: 15%;
 }
 .rightImage{
     height: 20em;
@@ -96,6 +110,14 @@ li{
     margin-left: 60%;
     margin-top: 15%;
 
+}
+.leftImages{
+    position: relative;
+    bottom: 199em;
+}
+.rightImages{
+    position: relative;
+    bottom: 320em;
 }
 .prince{
     height: 25em;
@@ -112,16 +134,17 @@ flex-direction: column;
 .Bey{
 display:flex;
 flex-direction: column;
-height: 10em;
-width: 11em;
+height: 11em;
+width: 12em;
 }
 .top{
-    height: 20em;
-    width: 11em;
+    height: 27em;
+    width: 14em;
 }
 .snoopydog{
-    height: 10em;
-    width: 11em;
+    height: 11em;
+    width: 14em;
+    
 }
 .grupodatopmodel{
 display:flex;
@@ -130,11 +153,11 @@ flex-direction: column;
 .depe{
     height: 35em;
     width: 21em;
+    
 }
 .meninacomNago{
 height: 10em;
 width: 11em;
-
 }
 .barbudo{
     height: 22em;
@@ -147,4 +170,12 @@ flex-direction: column;
 .imagensfinais{
     display: flex;
     flex-direction: row;
+    position: relative;
+    bottom: 215em;
+    justify-content: space-evenly;
+}
+.rodape{
+    height: 5em;
+    width: 100%;
+    background-color: #9767A9;
 }

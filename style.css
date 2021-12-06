@@ -8,14 +8,15 @@ main{
     color: #FFFFFF;
 }
 header{
-    height:1px;
+    height:5em;
     width: 100%;   
     display:flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     background-color: #FFFFFF;
-    padding-top: 3em;
+    z-index: 1;
+    position: fixed;
 }
 .cabeca{
     /* margin:2em;
@@ -58,7 +59,7 @@ li{
     font: normal normal 900 100px/100px Playfair Display;   
 }
 .rede{
-    height: 2%;
+    height: 1.5em;
 }
 
 .introduction{
@@ -78,13 +79,16 @@ li{
     height: 25%;
     font: normal normal 300 25px/30px Montserrat;
 }
-
+.passos{
+    z-index: 1;
+}
 .passoimpar{
     height:29%;
     width:35%;
     background-color: #9767A9;
     margin-top: 15%;
     margin-left: 2%;
+    z-index: 1;
 }
 .passopar{
     height:29%;
@@ -121,51 +125,64 @@ li{
 }
 .prince{
     height: 25em;
-    width: 20em;
+    width: 17em;
 }
 .apresentadora{
-    height: 13em;
-    width: 20em;
+    height: 11em;
+    width: 17em;
 }
 .principe{
 display:flex;
 flex-direction: column;
+justify-content: space-around;
+align-items: center;
 }
 .Bey{
-display:flex;
-flex-direction: column;
-height: 11em;
-width: 12em;
+height: 12em;
+width: 13em;
+}
+.Beygroup{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
 }
 .top{
-    height: 27em;
-    width: 14em;
+    height: 24em;
+    width: 13em;
 }
 .snoopydog{
-    height: 11em;
-    width: 14em;
+    height: 12em;
+    width: 13em;
     
 }
 .grupodatopmodel{
 display:flex;
 flex-direction: column;
+justify-content: space-around;
 }
 .depe{
-    height: 35em;
+    height: 37em;
     width: 21em;
-    
+}
+.cabeludoempe{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 .meninacomNago{
-height: 10em;
-width: 11em;
+height: 11em;
+width: 12em;
 }
 .barbudo{
-    height: 22em;
-    width: 11em;
+    height: 25em;
+    width: 12em;
 }
 .grupodameninacomNago{
 display:flex;
 flex-direction: column;
+justify-content: space-around;
 }
 .imagensfinais{
     display: flex;
@@ -174,8 +191,32 @@ flex-direction: column;
     bottom: 215em;
     justify-content: space-evenly;
 }
-.rodape{
+footer{
     height: 5em;
     width: 100%;
     background-color: #9767A9;
+    display: flex;
+    justify-content: flex-end;
+}
+.rodape{
+    height: 5em;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 5em;
+}
+.setinha{
+    height: 2em;
+    width: 2em;
+}
+.changepage{
+    display: flex;
+    flex-direction: column;
+}
+.setacomtexto{
+    display: flex;
+    flex-direction: row;
 }
